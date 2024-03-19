@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gears | Satwik Gupta</title>
+    <link rel="stylesheet" href="gears.css">
+    <link rel="shortcut icon" href="fav-icon.PNG" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+
+<header>
+    <div class="logo">Satwik Gupta</div>
+        <input type="checkbox" id="nav_check" hidden>
+    <nav>
+            <ul>
+                
+                    <a href="index.html">Home</a>
+                
+                
+                    <a href="portfolio.html">Portfolio</a>
+                
+                
+                    <a href="gears.html"   class="active">My Gears</a>
+                
+                
+                    <a href="videos.html">Videos</a>
+                
+                
+                    <a href="contact.html">Contact</a>
+                
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header>
+
+
+<div class="icon">
+    <i class='bx bx-cog'></i>
+</div>
+
+<div class="icon-txt">
+    <h1>My Gears</h1>
+</div>
+
+
+
+<div class="gears"></div>
+    <div class="laptop">
+    <img src="https://www.91-img.com/pictures/laptops/dell/dell-15-n5050-core-i3-2nd-gen-2-gb-500-gb-windows-7-hb-97424-large-1.jpg?tr=h-330,c-at_max,q-80" alt="">
+    </div>
+    <div class="l-name">
+    <h1>Dell Inspiron N5050 (2015 Model)</h1>
+    </div>
+    <div class="l-buy">
+        <h2>NO BUYING LINK AVAILABLE !</h2>
+    </div>
+    <hr>
+    <div class="keyboard">
+        <img src="https://m.media-amazon.com/images/I/811zHbyII+L._SL1500_.jpg" alt="">
+    </div>
+    <div class="k-name">
+        <h1>Rapoo NK2600 Wired Keyboard</h1>
+    </div>
+    <div class="k-buy">
+        <button id="keyboard-buy">Buy From Here</button>
+    </div>
+    <hr id="lb">
+    <div class="mouse">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2023/8/335761853/CW/YH/ZH/191157009/hp-cs10-wireless-keyboard-and-mouse-combo-500x500.jpg" alt="">
+    </div>
+    <div class="m-name">
+        <h1>HP CS10 Wireless Mouse</h1>
+    </div>
+    <div class="m-buy">
+        <button id="mouse-buy">Buy From Here</button>
+    </div>
+    <hr id="lb">
+
+    <div class="headphones">
+        <img src="https://www.boat-lifestyle.com/cdn/shop/files/AD141-FI_Grey01_600x.png?v=1698391770" alt="">
+    </div>
+    <div class="h-name">
+        <h1>boAt Airdops 140</h1>
+    </div>
+    <div class="h-buy">
+        <button id="h-buy">Buy From Here</button>
+    </div>
+    <hr id="lb">
+</div>
+
+
+
+<footer>
+    <p>&copy; 2024 Satwik Gupta. All Rights Reserved.</p>
+</footer>
+
+
+<script>
+    document.getElementById('keyboard-buy').addEventListener('click', function() {
+      // Change the URL to the desired link
+      var linkUrl = 'https://www.amazon.in/Rapoo-RAPOO-USB-KEYBOARD-NK2500/dp/B078K9DGQ3/ref=sr_1_4?keywords=rapoo+nk2600+keyboard&sr=8-4';
+  
+      // Open a new window with the specified link
+      window.open(linkUrl, '_blank');
+    });
+
+
+
+    document.getElementById('mouse-buy').addEventListener('click', function() {
+      // Change the URL to the desired link
+      var linkUrl = 'https://www.hp.com/in-en/shop/cs-10-wireless-keyboard-mouse-combo-7ya13pa.html';
+  
+      // Open a new window with the specified link
+      window.open(linkUrl, '_blank');
+    });
+
+
+    document.getElementById('h-buy').addEventListener('click', function() {
+      // Change the URL to the desired link
+      var linkUrl = 'https://www.boat-lifestyle.com/products/airdopes-141';
+  
+      // Open a new window with the specified link
+      window.open(linkUrl, '_blank');
+    });
+  </script>
+
+
+
+
+
+
+    
+</body>
+</html>
